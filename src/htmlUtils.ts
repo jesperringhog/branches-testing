@@ -1,6 +1,6 @@
 import type { Movie } from "./models/Movie";
 
-const createHtml = (movies: Movie[]) => {
+export const createHtml = (movies: Movie[]) => {
     const app = document.getElementById("app");
 
     movies.forEach ((movie) => {
